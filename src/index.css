@@ -1,0 +1,76 @@
+/* Universal selector to reset margins, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set basic styles for the html and body elements */
+html {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+/* Style for the main app container */
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Style for circle elements */
+.circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Basic styles for forms */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+/* Basic styles for labels */
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Basic styles for input elements */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Basic styles for buttons */
+button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
